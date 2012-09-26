@@ -36,9 +36,9 @@ package com.sharky
 		}
 		
 		
-		public static function getInstance():InAppPurchase
+		public static function getInstance():Billing
 		{
-			return _instance != null ? _instance : new InAppPurchase();
+			return _instance != null ? _instance : new Billing();
 		}
 		
 
